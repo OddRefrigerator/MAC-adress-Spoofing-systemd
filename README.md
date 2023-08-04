@@ -9,7 +9,7 @@ BindsTo=sys-subsystem-net-devices-%i.device
 After=sys-subsystem-net-devices-%i.device
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/ip link set dev %i address 36:aa:88:c8:75:3a
+ExecStart=/usr/bin/ip link set dev %i address A8:1A:F1:43:F1:7B
 ExecStart=/usr/bin/ip link set dev %i up
 [Install]
 WantedBy=multi-user.target
